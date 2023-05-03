@@ -5,6 +5,7 @@ import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import "./styles/login.css"
 function App() {
   return (
     <Router>
