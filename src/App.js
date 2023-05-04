@@ -5,6 +5,9 @@ import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+// import "./styles/login.css"
+// import "./styles/demo.css"
+import Demo from "./pages/Demo";
 function App() {
   return (
     <Router>
@@ -13,6 +16,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route exact path="/login" element={<LoginPage />} />
         <Route exact path="/register" element={<SignUpPage />} />
+        <Route exact path="/demo" element={<Demo/>} />
       </Routes>
       <Footer />
     </Router>
