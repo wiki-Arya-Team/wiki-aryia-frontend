@@ -1,7 +1,12 @@
 import React from "react";
+import Edditor from "./Edditor";
 
 const HomePage = () => {
-  return <div>HomePage32323</div>;
+  return (
+    <div>
+      <Edditor />
+    </div>
+  );
 };
 
 export default HomePage;
