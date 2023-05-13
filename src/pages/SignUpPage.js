@@ -4,7 +4,7 @@ import {
   KeyFill,
   ArrowRight,
   EnvelopeOpenFill,
-  Check
+  Check,
 } from "react-bootstrap-icons";
 
 const SignUpPage = () => {
