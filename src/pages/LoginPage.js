@@ -2,6 +2,9 @@ import React from "react";
 import { PersonFill, KeyFill, ArrowRight } from "react-bootstrap-icons";
 
 const LoginPage = () => {
+
+
+  
   return (
     <div className="container">
       <div className="login container__login">
