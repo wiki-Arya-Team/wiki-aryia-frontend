@@ -3,6 +3,8 @@ import React from "react";
 import Post from "./Post";
 
 const Edditor = () => {
+
+  
   return (
     <div className="container-fluid">
       <div className="d-flex justify-content-between py-3 ">
