@@ -1,0 +1,11 @@
+ul li {
+    list-style: none;
+    font-size: large;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}

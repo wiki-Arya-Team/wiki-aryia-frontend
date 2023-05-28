@@ -3,27 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* -------------------------- layout structure ------------ */
-#root{
+#root {
   display: grid;
   grid-template-columns: 15% 1fr 15%;
   grid-template-rows: 4rem 1fr 4rem;
   min-height: 100svh;
 }
 
-.header{
+.header {
   grid-column: 1/4;
   grid-row: 1/2;
 }
-.content{
+
+.content {
   grid-column: 2/3;
   grid-row: 2/3;
   /* width; */
 }
-.footer{
+
+.footer {
   grid-column: 1/4;
   grid-row: 3/4;
 }
+
 /* ---------------------------- content section ---------- */
 .content {
   padding: 1rem;
@@ -33,39 +37,46 @@
 .content__title {
   margin-bottom: 2rem;
 }
- /* -- references ----------------------- */
+
+/* -- references ----------------------- */
 .refs {
   list-style-type: none;
   padding: 1rem;
   margin-block: 1rem;
 }
+
 .refs__title {
   margin-bottom: 1rem;
 }
+
 .refs__links-wrapper {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: space-around;
 }
+
 /* -- cards ----------------------------------- */
 .cards {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
+
 .card {
   padding: 1rem;
   margin-block-end: 1rem;
   border-bottom: 1px solid lightgray;
 }
+
 /* --------------------------------- log-in/sign-up ------------ */
 
 
-  
+
 .login {
   font-family: sans-serif;
 }
+
 .login__field {
   display: flex;
   justify-content: flex-start;
@@ -77,6 +88,7 @@
   padding: 0.5rem 0;
   position: relative;
 }
+
 .login__field::after {
   content: "";
   position: absolute;
@@ -85,8 +97,9 @@
   background-color: hsl(0, 0%, 83%);
   bottom: 0;
 }
-.login__field .confirm{
-  transform:scale(1.3);
+
+.login__field .confirm {
+  transform: scale(1.3);
 }
 
 .login__input {
@@ -94,9 +107,11 @@
   background-color: transparent;
   color: inherit;
 }
+
 .login__input::placeholder {
   color: currentColor;
 }
+
 .login__input:focus {
   outline: none;
 }
@@ -116,6 +131,7 @@
   box-shadow: 0 3px 8px hsl(243, 30%, 58%);
   font-weight: 600;
 }
+
 .login__submit .arrow {
   transform: scale(1.5);
 }
@@ -133,33 +149,36 @@
   /* top:10rem; */
   /* left: 5rem; */
 }
+
 .background__shape {
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 3.5rem;
 }
+
 .background__shape4 {
   background-color: hsl(0, 0%, 100%);
   transform: rotate(45deg) translate(-46%, 40%);
   width: 150%;
 }
+
 .background__shape3 {
-  background-image: linear-gradient(
-    270deg,
-    hsl(247, 32%, 49%),
-    hsl(243, 22%, 51%)
-  );
+  background-image: linear-gradient(270deg,
+      hsl(247, 32%, 49%),
+      hsl(243, 22%, 51%));
   width: 50%;
   border-radius: 2rem;
   transform: rotate(45deg) translate(60%, -30%);
 }
+
 .background__shape2 {
   width: 60%;
   border-radius: 4rem;
   transform: rotate(45deg) translate(155%, 46%);
   background-color: hsl(243, 31%, 60%);
 }
+
 .background__shape1 {
   background-color: hsl(247, 31%, 53%);
   width: 80%;
@@ -180,6 +199,7 @@
   top: 0;
   left: 0;
 }
+
 .container__login {
   align-self: center;
 }
