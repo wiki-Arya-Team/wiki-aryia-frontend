@@ -130,7 +130,7 @@ const Footer = () => {
                     target="_self"
                   >
                     {" "}
-                    0124-64XXXX{" "}
+                    8767367821{" "}
                   </a>
                 </p>
               </div>
@@ -206,7 +206,7 @@ const Footer = () => {
               <p class="footer-copyright-text">
                 <a class="footer-copyright-link" href="/#" target="_self">
                   {" "}
-                  ©2020. | Designed By: Pooja Nahelia. | All rights reserved.{" "}
+                  ©2023. | Designed By: WikyArya. | All rights reserved.{" "}
                 </a>
               </p>
             </div>

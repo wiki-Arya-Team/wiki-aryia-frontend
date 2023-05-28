@@ -7,8 +7,8 @@ const Edditor = () => {
     <div className="container-fluid">
       <div className="d-flex justify-content-between py-3 ">
         <div className="d-flex justify-content-center align-items-center gap-2 ">
-          <MDBIcon fas icon="angle-right" />
-          <div>my name is flani</div>
+          {/* <MDBIcon fas icon="angle-right" />
+          <div>my name is flani</div> */}
         </div>
         <div className="d-flex justfy-content-between align-items-center gap-3">
           <div className="cursorPointer">
