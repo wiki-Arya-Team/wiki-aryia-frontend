@@ -3,7 +3,7 @@ import React from "react";
 
 const Post = () => {
   return (
-    <div>
+    <div className="container mb-5">
       <h2>header</h2>
       <div className="d-flex justify-content-start align-items-center gap-3">
         <div>
@@ -18,7 +18,7 @@ const Post = () => {
         <div>7 people viewed</div>
       </div>
       <h3 className="pt-3">intoduction</h3>
-      <p className="pt-3">
+      <p className="pt-3 lh-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores,
         in sunt quibusdam vel ducimus soluta pariatur beatae eos excepturi illo
         adipisci nulla dignissimos atque odio, magni sint mollitia dolor ipsa!
@@ -31,6 +31,7 @@ const Post = () => {
         suscipit laudantium numquam inventore voluptate eligendi, iure iste
         delectus dolores similique provident earum in.
       </p>
+      <div className="pb-5"></div>
     </div>
   );
 };
