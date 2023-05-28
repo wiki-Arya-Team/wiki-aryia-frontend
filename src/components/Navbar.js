@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import p1 from "../assetes/p1.jpg";
-import p2 from "../assetes/p2.jpg";
-import p3 from "../assetes/p3.jpg";
-import p4 from "../assetes/p4.jpg";
-import shoping from "../assetes/shop1.jpg";
+// import p1 from "../assetes/p1.jpg";
+// import p2 from "../assetes/p2.jpg";
+// import p3 from "../assetes/p3.jpg";
+// import p4 from "../assetes/p4.jpg";
+// import shoping from "../assetes/shop1.jpg";
 
 const Navbar = () => {
   const [sideActive, setSideActive] = useState(false);
