@@ -12,13 +12,16 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route exact path="/login" element={<LoginPage />} />
-        <Route exact path="/register" element={<SignUpPage />} />
-        <Route exact path="/demo" element={<Demo/>} />
-      </Routes>
-      <Footer />
+      <main className="main">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route exact path="/login" element={<LoginPage />} />
+          <Route exact path="/register" element={<SignUpPage />} />
+          <Route exact path="/demo" element={<Demo />} />
+        </Routes>
+      </main>
+
+      {/* <Footer /> */}
     </Router>
   );
 }

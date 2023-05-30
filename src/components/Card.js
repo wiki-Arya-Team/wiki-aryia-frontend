@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function Card({title, desc}) {
+function Card({ title, desc, author, img }) {
   return (
-    <div className='card'>
-
-        <h4 className='card__title'>{title}</h4>
-        <p className='card__desc'>{desc}</p>
+    <div className="card">
+      <img src={img} alt={title} className="card__img" />
+      <h4 className="card__title">{title}</h4>
+      <p className="card__author">{author}</p>
+      <p className="card__desc">{desc}</p>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
