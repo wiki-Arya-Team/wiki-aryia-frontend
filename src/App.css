@@ -219,7 +219,6 @@
   background-color: #D9D9D9;
 }
 
-
 /* card component ------------------------------ */
 .card {
   width: 100%;
@@ -259,9 +258,97 @@
 
 /* -------------- placing components -------------- */
 
-.home__sidebar-left {
+
+
+/* profile component -------------------------- */
+
+.profile {
+  background-color: #dad6d5;
   grid-column: 1/2;
   grid-row: 3/4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  max-height: 25rem;
+  text-transform: capitalize;
+}
+
+.profile__header {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  gap: .8rem;
+  padding-block-start: 2.4rem;
+  position: relative;
+}
+
+.profile__header::after {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #9ee6ce;
+  content: '';
+  top: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.profile__name {
+  font-weight: bold;
+}
+
+.profile__space {
+  background-color: #fff;
+  padding: .3rem;
+  border-radius: var(--bor-radius);
+}
+
+.profile__avatar {
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  background-color: #00ffff;
+  font-weight: bold;
+  position: relative;
+
+}
+
+.profile__avatar::after {
+  content: "";
+  width: 105%;
+  height: 105%;
+  position: absolute;
+  border-radius: 50%;
+  justify-self: center;
+  bottom: .01rem;
+  background-color: #fff;
+  z-index: -1;
+}
+
+.profile__content {
+  list-style-type: none;
+  align-self: flex-start;
+  width: 100%;
+  padding-inline: 1.5rem;
+}
+
+.profile__link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: .5rem;
+  margin-block: 1.2rem;
+}
+
+.profile__tasks {
+  background-color: #fff;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 .home__sidebar-right {
